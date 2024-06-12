@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flake News</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/flake-news.css">
+    <link rel="stylesheet" href="styles/address-bar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles/navigation.css">
+</head>
+<body>
+    <div class="address-bar">
+        <button id="home-btn" class="nav-btn"><i class="fas fa-home"></i></button>
+        <button id="back-btn" class="nav-btn"><i class="fas fa-arrow-left"></i></button>
+        <button id="forward-btn" class="nav-btn"><i class="fas fa-arrow-right"></i></button>
+        <input type="text" id="address-input" placeholder="Enter URL">
+    </div>
+    <div class="flake-news-container">
+        <h1>Flake News</h1>
+        <div id="articles"></div>
+    </div>
+    <script src="scripts/navigation.js"></script>
+    <script src="scripts/address-bar.js"></script>
+    <script src="scripts/flake-news.js"></script>
+</body>
+</html>

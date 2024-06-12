@@ -1,0 +1,65 @@
+body {
+    background-color: #FAEBD7; /* Light tan background */
+    color: #333; /* Dark text */
+    font-family: Arial, sans-serif;
+}
+
+.address-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #8B0000; /* Dark red */
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+.address-bar input {
+    width: 98%;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    background-color: #DAA520; /* Gold */
+    color: #fff;
+}
+
+.dicebook-container {
+    text-align: center;
+    margin-top: 60px;
+}
+
+#posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post {
+    border: 1px solid #DAA520; /* Gold border */
+    margin: 10px;
+    padding: 20px;
+    width: 75%;
+    background-color: #fff;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.post h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #8B0000; /* Dark red text */
+}
+
+.post p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333; /* Dark text */
+}
+
+.post a {
+    color: #DAA520; /* Gold links */
+    text-decoration: none;
+    font-weight: bold;
+}
